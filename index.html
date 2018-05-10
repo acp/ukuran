@@ -1,35 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Welcome to Vue</title>
-  <script src="https://unpkg.com/vue"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="can't think of a description">
+  <meta name="author" content="Andre Sion">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:url" content="http://ukuran.surge.sh">
+  <meta name="twitter:title" content="Ukuran by Andre Sion">
+  <meta name="twitter:description" content="Twitter's new Twitter Cards API allows developers to add META tags to their website, and Twitter will build card content from links to a given site.">
+  <meta name="twitter:image" content="https://davidwalsh.name/wp-content/themes/punky/images/logo.png">
+  <meta name="twitter:site" content="@caxvis">
+  <meta name="twitter:creator" content="@caxvis">
+
+  <title>Ukuran by Andre Sion</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/bulma/css/bulma.min.css">
+  <link rel="stylesheet" href="files/style.css">
 </head>
 <body>
-  <div id="app">
-    <img src="https://vuejs.org/images/logo.png" alt="Vue logo">
-    <h1>{{ greeting }}</h1>
-    <ul>
-      <li>
-        To learn more about Vue, visit
-        <a :href="docsURL" target="_blank">
-          {{ humanizeURL(docsURL) }}
-        </a>
-      </li>
-      <li>
-        For live help with simple questions, check out
-        <a :href="discordURL" target="_blank">
-          the Discord chat
-        </a>
-      </li>
-      <li>
-        For more complex questions, post to
-        <a :href="forumURL" target="_blank">
-          the forum
-        </a>
-      </li>
-    </ul>
+  <div id="app" class="container">
+    <div class="columns">
+      <div class="column is-4">
+        <h3 class="title is-size-3">Ukuran by <a href="https://andre.js.org" target="_blank">Andre Sion</a></h3>
+        <span class="subtitle is-size-6 has-text-grey"><a href="https://github.com/caxvis">github</a> / <a href="https://twitter.com/caxvis">twitter</a> // © Copyright <span class="has-text-weight-bold">Andre Sion</span> 2018</span>
+        <br>
+        <hr>
+        <br>
+        <div class="field">
+          <label class="label">Width</label>
+          <div class="control">
+            <input class="input" type="text" id="width">
+          </div>
+        </div>
+        <br>
+        <div class="field">
+          <label class="label">Height</label>
+          <div class="control">
+            <input class="input" type="text" id="height">
+          </div>
+        </div>
+        <br>
+        <button class="button is-fullwidth is-dark is-outlined">Scale</button>
+      </div>
+      <div class="column">
+        <div class="graphic" style="height:800px;" width="100px"></div>
+      </div>
+    </div>
   </div>
 
+  <script src="https://unpkg.com/vue"></script>
   <script src="files/main.js"></script>
 </body>
 </html>
