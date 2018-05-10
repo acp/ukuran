@@ -24,28 +24,28 @@
     <div class="columns">
       <div class="column is-4">
         <h3 class="title is-size-3">Ukuran by <a href="https://andre.js.org" target="_blank">Andre Sion</a></h3>
-        <span class="subtitle is-size-6 has-text-grey"><a href="https://github.com/caxvis">github</a> / <a href="https://twitter.com/caxvis">twitter</a> // © Copyright <span class="has-text-weight-bold">Andre Sion</span> 2018</span>
+        <span class="subtitle is-size-6 has-text-grey"><a href="https://github.com/caxvis" target="_blank">github</a> / <a href="https://twitter.com/caxvis" target="_blank">twitter</a> // © Copyright <span class="has-text-weight-bold">Andre Sion</span> 2018</span>
         <br>
         <hr>
         <br>
         <div class="field">
           <label class="label">Width</label>
           <div class="control">
-            <input class="input" type="text" id="width">
+            <input class="input" type="number" id="width" placeholder="800">
           </div>
         </div>
         <br>
         <div class="field">
           <label class="label">Height</label>
           <div class="control">
-            <input class="input" type="text" id="height">
+            <input class="input" type="number" id="height" placeholder="800">
           </div>
         </div>
         <br>
         <button class="button is-fullwidth is-dark is-outlined">Scale</button>
       </div>
       <div class="column">
-        <div class="graphic" style="height:800px;" width="100px"></div>
+        <canvas class="graphic" height="800" width="750"></canvas>
       </div>
     </div>
   </div>

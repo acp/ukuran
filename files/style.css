@@ -7,7 +7,7 @@ input {
 	/*text-align: center;*/
 }
 
-div.graphic {
+.graphic {
 	border-style: solid;
 	border-width: medium;
 	border-color: #000;
