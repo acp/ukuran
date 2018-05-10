@@ -1,3 +1,5 @@
+<img src="files/logo.png" alt="Ukuran Logo">
+
 # Ukuran by Andre Sion
 
 > This is a tool that'll probably be useful for designers.
