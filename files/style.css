@@ -1,0 +1,18 @@
+body {
+	margin: 1% 1% 1% 1%;
+}
+
+input {
+	width: 100% !important;
+	/*text-align: center;*/
+}
+
+div.graphic {
+	border-style: solid;
+	border-width: medium;
+	border-color: #000;
+}
+
+div.container.columns.column {
+	height: 100% !important;
+}
