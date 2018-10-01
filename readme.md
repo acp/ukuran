@@ -28,4 +28,4 @@ Because............. well to be honest, everybody thinks they're funny but only 
 
 #### Is this project licensed?
 
-Yes it is, it's licensed under the MIT license, go check the `license.md` if you would like to read it.
+Yes it is, it's licensed under the MIT license, go check the [`license.md`](https://github.com/caxvis/ukuran/blob/master/license.md) file if you would like to read it.
