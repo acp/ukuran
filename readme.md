@@ -6,11 +6,17 @@
 
 ## FAQ
 
-#### What framework did you use?
+#### What frameworks did you use?
 
-- Static HTML
-- A bit of CSS
+- Bulma
 - jQuery
+
+
+#### What technologies did you use?
+
+- HTML
+- Surge.sh
+- A bit of CSS
 
 _i was too lazy to setup the vue workspace so ended up going with a static html page_
 
